@@ -1,0 +1,26 @@
+/* Bulma basics */
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:200,300");
+
+/* Seccion personalización de Bulma */
+$family-sans-serif: "Open Sans", sans-serif;
+
+@import "~bulma/sass/utilities/_all";
+
+@import "~bulma/sass/base/_all";
+
+@import "~bulma/sass/components/media";
+
+@import "~bulma/sass/elements/box";
+@import "~bulma/sass/elements/container";
+@import "~bulma/sass/elements/content";
+@import "~bulma/sass/elements/icon";
+@import "~bulma/sass/elements/image";
+@import "~bulma/sass/elements/title";
+
+@import "~bulma/sass/grid/columns";
+
+@import "~bulma/sass/layout/section";
+
+@import "~bulma-switch";
